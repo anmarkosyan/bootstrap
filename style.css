@@ -1,3 +1,4 @@
+
 .navbar{background-color: #6e144d;}
 
 .nav-link,.navbar-brand { color: #f4f4f4;cursor: pointer;}
@@ -21,7 +22,7 @@
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(244, 244, 244, 0.79);
+    background: rgba(244, 244, 244, 0.6);
 }
 .description {
     position: absolute;
@@ -51,9 +52,9 @@
     margin: 2em;
 }
 .row img{
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
+    height: 80%;
+    width: 80%;
+    border-radius: 90%;
 }
 .row span{
     display: block;
@@ -71,4 +72,28 @@
 .row .desc p{
     line-height: 2;
     color:#888;
+}
+.contact-form{
+    margin: 6em 0;
+    position: relative;
+}
+
+.contact-form h1{
+    padding:2em 1px;
+    color: #451e37;
+}
+.contact-form .right{
+    max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+    background:  #888;
+    color: #fff;
+    border:0;
+}
+.contact-form .right .form-control::placeholder{
+    color: #888;
+    font-size: 16px;
+}
+html,h1,h2,h3,h4,h5,h6,a,p{
+    font-family: 'Sahitya', serif;
 }

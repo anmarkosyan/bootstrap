@@ -1,3 +1,2 @@
 # bootstrap
-Bootstrap projectpwd
-
+Bootstrap project
