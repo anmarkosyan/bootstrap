@@ -1,0 +1,74 @@
+.navbar{background-color: #6e144d;}
+
+.nav-link,.navbar-brand { color: #f4f4f4;cursor: pointer;}
+
+.nav-link:hover { background-color: #f4f4f4;color: #6e144d;}
+
+.navbar-collapse{ justify-content: flex-end;}
+
+
+.navbar-toggle{ background-color:#fff !important ;}
+
+.header {
+    background-image: url("https://miro.medium.com/max/1100/0*wcSbIG0Dot78JBq8");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{ color: #6e144d;}
+.description p{
+    color:#666;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+.description button{
+    border: none;
+    background:#666;
+    color:#fff;
+}
+.row{
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+.row h3{
+    color:#F97300;
+    margin: 2em;
+}
+.row img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.row span{
+    display: block;
+    color: #888;
+    position: absolute;
+    left: 115px;
+}
+.row .desc{
+    padding: 2em;
+    border-left:4px solid #451e37;
+}
+.row .desc h3{
+    color: #451e37;
+}
+.row .desc p{
+    line-height: 2;
+    color:#888;
+}
