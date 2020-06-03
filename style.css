@@ -1,15 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+    padding: 0;
+    margin: 0;
+    background:#f4f4f4;
+}
+.navbar{
+    background-color: #6e144d;
+}
+.nav-link,.navbar-brand {
+    color: #f4f4f4;cursor: pointer;
+}
+.nav-link:hover {
+    background-color: #f4f4f4;color: #6e144d;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-toggle{
+    background-color:#fff !important ;
+}
 
-.navbar{background-color: #6e144d;}
-
-.nav-link,.navbar-brand { color: #f4f4f4;cursor: pointer;}
-
-.nav-link:hover { background-color: #f4f4f4;color: #6e144d;}
-
-.navbar-collapse{ justify-content: flex-end;}
-
-
-.navbar-toggle{ background-color:#fff !important ;}
-
+/* header style*/
 .header {
     background-image: url("https://miro.medium.com/max/1100/0*wcSbIG0Dot78JBq8");
     background-attachment: fixed;
@@ -43,18 +54,18 @@
     color:#fff;
 }
 .row{
-    margin: 4em 0;
+    margin: 6em 0;
     padding: 1em;
     position: relative;
 }
 .row h3{
     color:#F97300;
-    margin: 2em;
+    margin: 1em 0 1em 0;
 }
 .row img{
-    height: 80%;
-    width: 80%;
-    border-radius: 90%;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
 }
 .row span{
     display: block;
@@ -76,7 +87,8 @@
 #project{
     color: #451e37;
     height: 0.1em;
-    padding: 1em ;
+    padding: 0.5em 1em 0 2em;
+
 }
 
 .contact-form{
@@ -102,4 +114,7 @@
 }
 html,h1,h2,h3,h4,h5,h6,a,p{
     font-family: 'Sahitya', serif;
+}
+.btn-outline-info{
+    margin-top: 2em;
 }
